@@ -10,11 +10,13 @@ def calculate_fibonacci(n):
 	for i in range(2, n):
 		fib.append(fib[i-1] + fib[i-2])
 	return fib
-		
+
+
 def main():
 	n = 5  # Calculate first 10 Fibonacci numbers
 	result = calculate_fibonacci(n)
 	print(f"First {n} Fibonacci numbers: {result}")
+	print (" Calculating Fibonacci sequence ...")
 		
 if __name__ == "__main__":
 		main()
